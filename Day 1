@@ -5,7 +5,6 @@ compliled java code can run on all platforms that supports java without the need
 Widely used for developing applications for desktop , web and mobile devices
 
 What is java used for?
-
 Mobile App Development
 Desktop GUI Applications
 Web-based Applications
@@ -14,6 +13,50 @@ Big Data Technologies
 Distributed Applications
 Cloud-based Applications
 IoT Applications
+
+
+What is JRE?   Reference : https://www.geeksforgeeks.org/jre-in-java/
+Java Runtime Environment is a software package that provides the Java class library, essential tools, and a built-in Java Virtual Machine (JVM) required to execute Java bytecode. 
+It is necessary for running Java applications on any platform.
+
+Working of JRE?
+ava Development Kit (JDK) and Java Runtime Environment (JRE)  both interact with each other to create a sustainable runtime environment that enables Java-based applications to run seamlessly 
+on any operating system. The  JRE runtime architecture consists of the following elements as listed:
+
+ClassLoader
+ByteCode verifier
+Interpreter
+
+ClassLoader: Java ClassLoader dynamically loads all the classes necessary to run a Java program. Because classes are only loaded into memory whenever they are needed,
+the JRE uses ClassLoader will automate this process when needed. During the initialization of the JVM, three classLoaders are loaded:
+Bootstrap class loader
+Extensions class loader
+System class loader
+
+Bytecode Verifier  Reference : https://www.javatpoint.com/bytecode-verifier-in-java
+The bytecode verifier is an integral part of the JVM responsible for ensuring that the bytecode being loaded and executed is valid and adheres to Java's safety and security requirements. It plays a vital role in preventing certain types of security vulnerabilities,
+such as buffer overflows and pointer manipulation, which are common in languages like C and C++
+
+Interpreter: After loading the byte code successfully, the Java interpreter creates an object of the Java virtual machine that allows the Java program to run natively on the underlying machine.
+
+
+what is JVM?
+JVM is a part of JRE(Java Runtime Environment). it provides platform independence as it allows the same java program to run on any device or operating system it executes java byte code
+JVM is the one that calls main method present in a java code.
+
+JVM architecture
+https://www.geeksforgeeks.org/jvm-works-jvm-architecture/
+
+
+what is JDK?
+The Java Development Kit (JDK) is a cross-platformed software development environment that offers a collection of tools and libraries necessary for developing Java-based software applications
+if you are only interested in running Java programs on your machine then you can easily do it using Java Runtime Environment.
+However, if you would like to develop a Java-based software application then along with JRE you may need some additional necessary tools, which is called JDK.
+
+
+What is JIT?
+
+
 
 
 
